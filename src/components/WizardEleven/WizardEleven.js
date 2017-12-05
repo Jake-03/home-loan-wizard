@@ -10,7 +10,7 @@ class WizardEleven extends Component {
                 <div className="vert-align">
                 
                       
-                    <p>Here is an overview of your form:</p> 
+                    <p name="overviewText" >Here is an overview of your form:</p> 
 
                     <div >
 

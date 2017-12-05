@@ -10,7 +10,7 @@ class WizardOne extends Component {
             <div className="parent-div">
                 <div className="vert-align">
 
-                <p>What type of loan will you be needing?</p> <br />
+                <p name="loanDropDownText" >What type of loan will you be needing?</p> <br />
             
                 <select name="loanDropDown" onChange={(e) =>this.props.updateLoanType(e.target.value)}>
 
@@ -20,7 +20,7 @@ class WizardOne extends Component {
 
                 </select> <br />  
 
-                <p>What type of property are you purchasing?</p> <br />
+                <p name="propDropDownText" >What type of property are you purchasing?</p> <br />
 
                 <select name="propDropDown" onChange={(e)=>this.props.updatePropertyType(e.target.value)}>
 
