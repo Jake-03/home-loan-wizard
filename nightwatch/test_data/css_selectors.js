@@ -96,6 +96,21 @@ module.exports = {
         startOver: 'button[name="startOver"]',
         overviewText: 'p[name="overviewText"]',
     },
+    overviewScreenOutput: {
+        nameOutput: 'p[name=nameOutput]',
+        emailOutput: 'p[name=emailOutput]',
+        typeOfLoan: 'p[name=typeOfLoan]',
+        propertyType: 'p[name=propertyType]',
+        city: 'p[name=city]',
+        loanPropertyType: 'p[name=loanPropertyType]',
+        foundNewHome: 'p[name=foundNewHome]',
+        realEstateAgent: 'p[name=realEstateAgent]',
+        purchasePrice: 'p[name=purchasePrice]',
+        downPayment: 'p[name=downPayment]',
+        creditScore: 'p[name=creditScore]',
+        bankruptcyHistory: 'p[name=bankruptcyHistory]',
+        currentAddress: 'p[name=currentAddress]'
+    },
     thankYouScreen: {
         homeButton: 'button[name="homeButton"]',
         thankYouText: 'p[name="thankYouText"]',
