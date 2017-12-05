@@ -10,7 +10,7 @@ class WizardFive extends Component {
             <div className="parent-div">
                 <div className="vert-align">
 
-                    <p>Are you currently working with a real estate agent?</p> <br />
+                    <p name="realEstateText" >Are you currently working with a real estate agent?</p> <br />
                     <div className="row">
                         <Link to="/wSix"><button name="yesAgent" onClick={ (e)=>this.props.updateRealEstateAgent("True") }>Yes</button></Link>
                         <Link to="/wSix"><button name="noAgent" onClick={ (e)=>this.props.updateRealEstateAgent("False") }>No </button></Link>

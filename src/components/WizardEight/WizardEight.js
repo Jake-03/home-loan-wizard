@@ -9,7 +9,7 @@ class WizardEight extends Component {
         return(
             <div className="parent-div">
                 <div className="vert-align">
-                    <p>Have you had a bankruptcy or foreclosure in the past seven years?</p> <br />
+                    <p name="bankForeText" >Have you had a bankruptcy or foreclosure in the past seven years?</p> <br />
                 <div className="row">
                     <Link to="/wNine"><button name="noBankruptForeclose" value="Has never been in bankruptcy" onClick={ (e)=> this.props.updateHist(e.target.value) }>No</button></Link>
                     <Link to="/wNine"><button name="bankrupt" value="Has had bankruptcy before" onClick={ (e)=> this.props.updateHist(e.target.value) }>Bankruptcy</button></Link>

@@ -9,7 +9,7 @@ class WizardFour extends Component {
         return(
             <div className="parent-div">
                 <div className="vert-align">
-               <p>Have you already found your new home?</p> <br />
+               <p name="foundHomeText" >Have you already found your new home?</p> <br />
                 <div className="row">
                     <Link to="/wFive"><button name="yesFound" onClick={ (e)=>this.props.updateFound("True") }>Yes</button></Link>
                     <Link to="/wFive"><button name="noFound" onClick={ (e)=>this.props.updateFound("False") }>No </button></Link> 
