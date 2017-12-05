@@ -1,6 +1,6 @@
 const functions = require('../test_data/helper_functions')
 const selectors = require('../test_data/css_selectors')
-const data = require('../test_data/test_data.')
+const data = require('../test_data/test_data')
 
 module.exports = {
     beforeEach: browser => {
@@ -31,10 +31,20 @@ module.exports = {
             //click in loan type dropdown and choose refinance, click in type of property dropdown and choose townhome
             .click(`${selectors.loanPropTypeScreen.loanSelectors.optionRefi}`)
             .click(`${selectors.loanPropTypeScreen.propSelectors.optionTown}`)
-            .click(selectors.cityLocationScreen.nextButton)
-// City Location Screen. Enter city name
-            .waitForElementVisible(selectors.cityLocationScreen.cityInput, 1000)   
-         functions.input (selectors.cityLocationScreen.cityInput, data. browser)
-         .click(selectors.cityLocationScreen.nextButton)
+            .click(selectors.loanPropTypeScreen.nextButton)
+        // City Location Screen. Enter city name
+            .waitForElementVisible(selectors.cityPropLocatedScreen.cityName, 1000)
+        functions.input(selectors.cityPropLocatedScreen.cityName, data.goodData.cityPropLocatedScreen.inputCityName, browser)
+        browser
+            .click(selectors.cityPropLocatedScreen.wTwoButton)
+        // Property Loan Screen, Click on loan use
+            .waitForElementVisible(selectors.whatPropLoanScreen.whatPropText, 1000)
+            .click(selectors.whatPropLoanScreen.primary)
+        // Found new home screen
+            .waitForElementVisible(selectors.foundNewHomeScreen.foundHomeText, 1000)
+            .click(selectors.foundNewHomeScreen.yesFound)
+        // Real estate agent screen
+            .waitForElementVisible(selectors.realEstateAgentScreen.realEstateText, 1000)
+            click(selectors.realEstateAgentScreen.yesAgent)
     }
 }
