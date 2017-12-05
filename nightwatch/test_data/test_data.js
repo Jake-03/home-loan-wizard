@@ -29,6 +29,23 @@ module.exports = {
             inputLastLineTwo: 'Killpack',
             inputEmailLineThree: 'Dallas@gmail.com',
         },
-
     },
+    badData: {
+        cityPropLocatedScreen: {
+            inputCityName: 'asdfasdf'
+        },
+        priceDownPaymentScreen: {
+            inputEstimatedPrice: 'invalidinformation',
+            inputDownPayment: 'invalidinformation',
+        },
+        addressScreen: {
+            inputAddressLineOne: 'thisisaninvalidaddress',
+            inputAddressLineTwo: 'thisisaninvalidaddress',
+            inputAddressLineThree: 'thisisaninvalidaddress',
+        },
+        nameScreen: {
+            inputNameLineOne: '12345',
+            inputLastLineTwo: '123notlastname',
+            inputEmailLineThree: 'invalidemail',
+        },
 }
