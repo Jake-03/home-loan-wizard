@@ -9,7 +9,7 @@ class WizardTwo extends Component {
             <div className="parent-div">
                 <div className="vert-align">
             
-                    <p>In what city will the property be located?</p><br />
+                    <p name="cityNameText" >In what city will the property be located?</p><br />
                 
                     <input name="cityName" placeholder="city name" type="text" onChange={(e)=>this.props.updateCity(e.target.value)}/>
                

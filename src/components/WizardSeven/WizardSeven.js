@@ -9,7 +9,7 @@ class WizardSeven extends Component {
         return(
             <div className="parent-div">
                 <div className="vert-align">
-                    <p>Estimate your credit score</p> <br />
+                    <p name="creditScoreText" >Estimate your credit score</p> <br />
                     <div className="row">
                         <Link to="/wEight"><button name="excellent" onClick={ (e)=>this.props.updateCredit('Excellent') }>Excellent</button></Link>
                         <Link to="/wEight"><button name="good" onClick={ (e)=>this.props.updateCredit('Good') }>Good</button></Link>
