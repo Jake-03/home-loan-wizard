@@ -11,9 +11,9 @@ class WizardNine extends Component {
                 <div className="vert-align">
                     <p name="addressText" >What is your address?</p> <br />
 
-                    <input type="text" name="addressOne" placeholder="Line One" onChange={ (e)=>this.props.updateAddOne(e.target.value) }/>
-                    <input type="text" name="addressTwo" placeholder="Line Two" onChange={ (e)=>this.props.updateAddTwo(e.target.value) }/>
-                    <input type="text" name="addressThree" placeholder="Line Three" onChange={ (e)=>this.props.updateAddThree(e.target.value) }/>
+                    <input type="text" name="addressOne" placeholder="Street Address Line One" onChange={ (e)=>this.props.updateAddOne(e.target.value) }/>
+                    <input type="text" name="addressTwo" placeholder="Street Address Line Two" onChange={ (e)=>this.props.updateAddTwo(e.target.value) }/>
+                    <input type="text" name="addressThree" placeholder="City, State Zip" onChange={ (e)=>this.props.updateAddThree(e.target.value) }/>
                
                 
                     <Link to="/wTen"><button name="next" className="margin-btn"> Next </button></Link>

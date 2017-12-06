@@ -104,7 +104,7 @@
     * This screen will inquire as to whether the user has a real estate agent with whom they are working.
   7. Price estimation screen
     * This screen will require an estimate for both the purchase price and available down payment amount.
-    * Acceptable values include any numeric amount for both data points.
+    * Acceptable values include any positive whole number for both data points.
   8. Credit score estimation
     * This screen will request an estimate of the user's credit score.
     * Acceptable values include:
@@ -121,15 +121,19 @@
       * Both
   10. Current address request screen
     * This screen is to check the user's current address
-    * Acceptable responses are three lines of free text entry
+    * Entry should be the standard address format - street address in lines 1 and 2, City, State Zip in line 3
+    * Lines 1 and 3 are required, line 2 is optional
   11. User information request screen
     * This screen will get contact information from the user
     * Acceptable responses include:
       * First Name - free text entry
       * Last Name - free text entry
-      * email - free text entry
+      * email - needs to be in a standard email format xxxx@xxx.xxx
   12. Summary screen
     * This screen will show the user an overview of the information provided, and will allow them to submit the report, or to star the form over.
+
+  * All screens require entry before the user can proseed
+  * Placeholder text should be used to provide the user expectations for required entries
 
   Once the submit button is selected, the form will be sent to the lenders' server for appropriate distribution within their systems.
 </details>
