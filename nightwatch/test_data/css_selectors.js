@@ -67,7 +67,7 @@ module.exports = {
     addressScreen: {
         addressOne: 'input[name="addressOne"]',
         addressTwo: 'input[name="addressTwo"]',
-        addressThree: 'input[name="addressTwo"]',
+        addressThree: 'input[name="addressThree"]',
         marginButton: 'button[class="margin-btn"]',
         addressText: 'p[name="addressText"]',
     },
@@ -99,5 +99,24 @@ module.exports = {
     thankYouScreen: {
         homeButton: 'button[name="homeButton"]',
         thankYouText: 'p[name="thankYouText"]',
+    },
+    overviewScreenOutput: {
+        nameOutput: 'p[name=nameOutput]',
+        emailOutput: 'p[name=emailOutput]',
+        typeOfLoan: 'p[name=typeOfLoan]',
+        propertyType: 'p[name=propertyType]',
+        city: 'p[name=city]',
+        loanPropertyType: 'p[name=loanPropertyType]',
+        foundNewHome: 'p[name=foundNewHome]',
+        realEstateAgent: 'p[name=realEstateAgent]',
+        purchasePrice: 'p[name=purchasePrice]',
+        downPayment: 'p[name=downPayment]',
+        creditScore: 'p[name=creditScore]',
+        bankruptcyHistory: 'p[name=bankruptcyHistory]',
+        currentAddress: 'p[name=currentAddress]'
+    },
+    thankYouScreen: {
+        homeButton: 'button[name="homeButton"]',
+        thankYouText: 'p[name="thankYouText"]'
     }
 }
