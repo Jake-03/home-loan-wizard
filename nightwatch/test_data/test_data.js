@@ -47,5 +47,6 @@ module.exports = {
             inputNameLineOne: '12345',
             inputLastLineTwo: '123notlastname',
             inputEmailLineThree: 'invalidemail',
-        },
+        }
+    }
 }

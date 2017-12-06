@@ -67,7 +67,7 @@ module.exports = {
     addressScreen: {
         addressOne: 'input[name="addressOne"]',
         addressTwo: 'input[name="addressTwo"]',
-        addressThree: 'input[name="addressTwo"]',
+        addressThree: 'input[name="addressThree"]',
         marginButton: 'button[class="margin-btn"]',
         addressText: 'p[name="addressText"]',
     },
