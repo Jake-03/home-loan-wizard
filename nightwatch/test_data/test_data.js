@@ -16,8 +16,8 @@ module.exports = {
             inputCityName: 'Salt Lake City'
         },
         priceDownPaymentScreen: {
-            inputEstimatedPrice: '1,000,000',
-            inputDownPayment: '100,000',
+            inputEstimatedPrice: '1000000',
+            inputDownPayment: '100000',
         },
         addressScreen: {
             inputAddressLineOne: '4716 Kemper Lane Salt Lake City 84104',
@@ -32,7 +32,7 @@ module.exports = {
     },
     badData: {
         cityPropLocatedScreen: {
-            inputCityName: 'asdfasdf'
+            inputCityName: '12345*$%$'
         },
         priceDownPaymentScreen: {
             inputEstimatedPrice: 'invalidinformation',
