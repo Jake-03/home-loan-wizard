@@ -210,6 +210,7 @@ module.exports = {
         .waitForElementVisible(selectors.bankForeScreen.bankForeText, 1000)
         .click(selectors.bankForeScreen.foreclosure)
         // Address screen
+        // 
         .waitForElementVisible(selectors.addressScreen.addressText, 1000)
     functions.input(selectors.addressScreen.addressOne, data.badData.addressScreen.inputAddressLineOne, browser)
     functions.input(selectors.addressScreen.addressTwo, data.badData.addressScreen.inputAddressLineTwo, browser)
